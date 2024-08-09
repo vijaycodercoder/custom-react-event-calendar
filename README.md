@@ -17,25 +17,25 @@
 
 ## Installation
 
-To install `react-event-calendar`, use npm or yarn:
+To install `custom-react-event-calendar`, use npm or yarn:
 
 ```bash
-npm install react-event-calendar
+npm install custom-react-event-calendar
 ```
 
 or
 
 ```bash
-yarn add react-event-calendar
+yarn add custom-react-event-calendar
 ```
 
 ## Usage
 
-Here is a basic example of how to use `react-event-calendar` in your React application:
+Here is a basic example of how to use `custom-react-event-calendar` in your React application:
 
 ```typescript
 import React from 'react';
-import Calendar from 'react-event-calendar';
+import Calendar from 'custom-react-event-calendar';
 
 const App: React.FC = () => {
   const events = [
