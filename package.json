@@ -1,0 +1,38 @@
+{
+  "name": "custom-react-event-calendar",
+  "version": "1.0.0",
+  "description": "A customizable event calendar component for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/Calendar.tsx --format esm,cjs --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijaycodercoder/react-event-calendar"
+  },
+  "keywords": [
+    "react",
+    "calendar",
+    "event"
+  ],
+  "author": "Your Name <vijaykrishnan1496@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "date-fns": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^18.0.0",
+    "@types/date-fns": "^2.0.0",
+    "tsup": "^6.0.0",
+    "@swc/core": "^1.3.35"
+  }
+}
